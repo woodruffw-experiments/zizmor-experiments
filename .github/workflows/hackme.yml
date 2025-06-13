@@ -18,3 +18,4 @@ jobs:
           script: |
             return "doing a thing: ${{ github.event.issue.title }}"
 
+      - run: true
